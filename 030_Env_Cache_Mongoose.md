@@ -1,3 +1,9 @@
+No final do roteiro seu projeto deve ter:
+* O uso de uma variável de ambiente
+* Uma biblioteca de cache
+* Entidades mapeadas em banco de dados
+
+
 # Variáveis de Ambiente
 
 O seu programa NodeJS pode executar em produção ou na sua máquina durante o desenvolvimento. Mesmo quando o sistema está em produção, ele pode ser executado com diferentes bancos de dados ou outros subsistemas. Neste sentido, é costume controlar a execução através de varíaveis do ambiente.
