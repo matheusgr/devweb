@@ -1,7 +1,7 @@
+[![Join the chat at https://gitter.im/devweb-ufcg/Lobby](https://badges.gitter.im/devweb-ufcg/Lobby.svg)](https://gitter.im/devweb-ufcg/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 # Desenvolvimento Web
 
-Links importantes
-* [Gitter](https://gitter.im/devweb-ufcg/Lobby)
 * [Plano de aulas](https://docs.google.com/spreadsheets/d/e/2PACX-1vRNuyRzq82TVm3ARJtopS2vCzxCl5_U1exKr4296FM7Dtog3GTP-VPCiEUpgoYuwt7iWcloQ-yn9joF/pubhtml)
 
 Como funciona o acompanhamento
