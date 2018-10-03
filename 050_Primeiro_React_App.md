@@ -175,9 +175,103 @@ O `App.js` define o seu primeiro componente React. Ao criar um componente react 
 
 Para os curiosos, o `@keyframes` define uma animação através de uma transformação (rotação).
 
-# Primeiro componente
+# Primeiro componente e propriedades
 
-# Props e estado
+Vamos criar nosso primeiro componente. Queremos poder customizar e expandir a funcionalidade do elemento `<code>` de HTML. Para isso vamos criar o nosso primeiro componente próprio, o `Code`.
+
+```javascript
+import React, { Component } from 'react';
+
+class Code extends Component {
+  render() {
+    return (
+      <code>
+        {this.props.children}
+      </code>
+    );
+  }
+}
+
+export default Code;
+```
+
+E adaptar nossa aplicação para fazer uso do componente criado:
+
+```javacript
+//...
+import Code from './Code';
+//...
+            Edit <Code>src/App.js</Code> and save to reload.
+//...
+```
+
+É possível observar no componente `Code` o uso de `this.props`. Este atributo representa um conjunto de propriedades que é passado ao componente e que o mesmo pode fazer uso para enriquecer sua aplicação. No exemplo, fizemos uso do `children` que representa tudo aquilo que foi passado dentro da invocação do elemento `Code` pelo componente do `App`. No nosso exemplo, o `children` é o texto `src/App.js`.
+
+Você pode passar propriedades a partir de atributos:
+
+```jsx
+Edit <Code plus="*">src/App.js</Code> and save to reload.
+```
+
+E usar tais atributos no dicionário `props`:
+
+```jsx
+<code>
+  {this.props.plus} {this.props.children} {this.props.plus}
+</code>
+```
 
 # Novas funcionalidades ao componente
 
+Vamos agora expandir o componente `Code`! Vamos criar um construtor para o componente (`constructor()`) que prepara o estado do componente (`this.state`) e uma função (`this.handleClick`).
+
+Observe o comportamento do handleClick. Nele, o estado do objeto é atualizado. O mecanismo do `setState` permite que o react possa reagir a alterações do estado do componente de forma que ele próprio possa ser atualizado de acordo com a atualização.
+
+```javascript
+import React, { Component } from 'react';
+
+class Code extends Component {
+    constructor() {
+        super();
+        this.state = {
+            bold: true
+        };
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick(e) {
+        this.setState({
+            bold: !this.state.bold
+        });
+    }
+
+    render() {
+        return (
+            <code onClick={this.handleClick}>
+                {this.state.bold ? this.props.plus : ""} {this.props.children}
+            </code>
+        );
+    }
+}
+
+export default Code;
+```
+
+# E agora?
+
+Comece definindo os principais componentes do seu App. Foque no componente da principal funcionalidade do seu sistema.
+
+Não comece com Home, Login, Dashboard... pense em qual é a coisa mais importante da sua aplicação. E prepare essa tela.
+
+Defina um componente principal para conter os elementos existentes nessa página principal. E crie 2 ou 3 níveis de componentes até chegar a um componente que possa ser trabalhado.
+
+Como exemplo, no dirlididi, nós temos a resolução de um problema como a principal tela da aplicação. Ela é composta dos componentes:
+
+* navbar
+* problema
+* ide
+* submissões
+
+Cada um desses componentes podem ser descritos em outros componentes. O problema pode ser descrito pelos componentes de título, chave, descrição e exemplos.
+
+Considerando essa estruturação, poderia-se começar pelo componente de título, depois chave, depois descrição, depois de exemplos de entrada e saída.
