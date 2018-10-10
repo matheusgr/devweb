@@ -68,7 +68,12 @@ class Code extends Component {
 export default Code;
 ```
 
-TODO
+
+Observe que se essa informação precisasse ser compartilhada entre diferentes componentes, pela estrutura apresentada, cada componente precisaria fazer a invocação do dado em questão.
+
+TODO:
+
+Componentes de alta ordem.
 
 https://www.robinwieruch.de/react-pass-props-to-component/
 
