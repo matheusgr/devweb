@@ -23,5 +23,5 @@
 5. [Primeiro React App](roteiros/050_Primeiro_React_App.md)
 6. [React: Ciclo de vida de um componente](roteiros/060_Ciclo_de_Vida_do_Componente.md)
 
-
+##### * [Sugestão de fontes para estudo](onde_estudar.md)
 
