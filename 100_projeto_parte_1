@@ -1,0 +1,20 @@
+# Projeto
+
+O projeto terá 2 entregas. No dia 28/11 e no dia 14/12.
+
+Para a primeira entrega, você deve:
+
+* Exercitar uma operação de GET
+* Exercitar uma operação de POST
+* Ter, pelo menos, 5 componentes implementados
+* Exercitar a propagação do estado para componentes filhos
+* Exercitar a troca de informação entre dois componentes que são irmãos/primos (i.e. tem um ascendente em comum)
+
+Para a segunda entrega, você deve:
+
+* Implementar a autenticação
+* Implementar, pelo menos, 3 rotas (telas distintas)
+* Corrigir qualquer problema identificado na primeira parte
+* Testes para componentes que exercitem transição de estado, operação de GET e operação de POST
+
+Caso não consiga realizar a integração com o backend para a primeira entrega, utilize um mock os dados.
