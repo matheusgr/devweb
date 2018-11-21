@@ -22,7 +22,7 @@ Todo o processo e controle de vida de um componente React é executado de forma 
 
 Dan Abramov organizou uma [imagem para o ciclo de vida de componentes](https://twitter.com/dan_abramov/status/981712092611989509).
 
-![Ciclo de vida do componente](https://raw.githubusercontent.com/matheusgr/devweb/master/lifecycle.jpeg)
+![Ciclo de vida do componente](../imgs/lifecycle.jpeg)
 
 # Consumindo uma API
 
