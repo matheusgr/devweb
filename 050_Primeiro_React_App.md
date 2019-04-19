@@ -1,10 +1,6 @@
-Vamos começar instalando o create-react-app
+Vamos começar criando o seu projeto com o create-react-app
 
-`npm install create-react-app`
-
-E execute o create-react-app resultante da instalação:
-
-`node node_modules/create-react-app/createReactApp.js nome_do_seu_projeto`
+`npx create-react-app nome_do_seu_projeto`
 
 Vamos entender a estrutura do projeto criado.
 
