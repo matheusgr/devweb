@@ -1,5 +1,7 @@
 [![Discord CCC - #desenvolvimento_web](https://img.shields.io/discord/698875425887092746.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/xdx3ZUf)
 
+[Vídeo de apresentação](https://youtu.be/w7BT1iWqpJQ)
+
 # Desenvolvimento Web 2020.3 - RAE
 
 * As interações (síncronas e assíncronas) serão feitas via [discord CCC, no canal #desenvolvimento_web](https://discord.gg/xdx3ZUf)
