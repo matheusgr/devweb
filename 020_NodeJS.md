@@ -9,7 +9,7 @@ Faça um programa para ler arquivos e processar dados de um arquivo de forma sí
 ```javascript
 const fs = require('fs');
 const data = fs.readFileSync('/file.md'); // blocks here until file is read
-Você pode fazer isso de forma assíncrona (quando a leitura for completa uma função será chamada
+// Você pode fazer isso de forma assíncrona (quando a leitura for completa uma função será chamada
 const fs = require('fs');
 fs.readFile('/file.md', (err, data) => {
   if (err) throw err;
