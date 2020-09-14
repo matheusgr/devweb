@@ -22,9 +22,8 @@
 ## Entrega
 
 * [Formulário de cadastro de projetos](https://forms.gle/DnYaLBaSDtubXJhL9)
-* Formulário de entrega (a partir da segunda semana)
-* Planilha de revisão da entrega atual (a partir da terceira semana)
-* Formulário de revisão (a partir da terceira semana)
+* [Planilha de revisão da entrega passada](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vS8EWXekjtPhecDYDYhljf3MKWAtq4V9QYbBgoW6ZFkMfUwt2QxvdJ_Rydz4j1DqZyr0B-AALBbbhxJ/pubhtml?gid=759893492&single=true)
+* [Formulário de revisão](https://forms.gle/zoBgejb8HcWkbkej9)
 
 ## Cronograma
 
