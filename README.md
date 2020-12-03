@@ -24,6 +24,7 @@
 * [Formulário de cadastro de projetos](https://forms.gle/DnYaLBaSDtubXJhL9)
 * [Planilha de revisão da entrega passada](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vS8EWXekjtPhecDYDYhljf3MKWAtq4V9QYbBgoW6ZFkMfUwt2QxvdJ_Rydz4j1DqZyr0B-AALBbbhxJ/pubhtml?gid=759893492&single=true)
 * [Formulário de revisão](https://forms.gle/zoBgejb8HcWkbkej9)
+* [Notas](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAdpH3iHVbcVAelTUJ4z0-SNrU-TXSsr6n55h-dXDyXQPRJCkmPHyZRRPTsNsjR4AmGqpgTjZimOCk/pubhtml)
 
 ## Cronograma
 
