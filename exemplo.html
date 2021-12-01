@@ -1,0 +1,78 @@
+<!--
+
+    Exemplo de REST:
+
+GET /perfil
+
+GET /bordado
+
+[{"id": 1, "img": "/bordado1.png", "texto": "Amigo", "pos": "-50px"},
+{"id": 2, "img": "/bordadoAAA.png", "texto": "Diversão", "pos": "-20px"}]
+
+GET /bordado?f="amigo ou busc"
+
+GET /bordado/1
+GET /bordado/2
+
+POST /bordado
+{"id": 1, "img": "/bordado1.png", "texto": "Amigo", "pos": "-50px"}
+
+-->
+<h1>Exemplo de Projeto</h1>.
+<div class="perfil">
+    <img alt="bordado 1" width="20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/220px-SNice.svg.png" />
+    MATHEUS GAUDENCIO
+    
+</div>
+<h2>Listagem de bordados</h2>
+<div class="listagem">
+    <input type="text" alt="busca" placeholder="Busca..." />
+    <div>
+        <input type="button" value="Ordem... Mais relevantes">
+    </div>
+    <hr />
+    <div class="bordado" id="1">
+        <img alt="bordado 1" width="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/220px-SNice.svg.png" />
+        <span style="left:-50px;top:-50px;position: relative;">Amigo</span>
+        <div class="buttons">
+            Quantidade
+            <input type="text" value=0 />
+            <input type="button" value="+" />
+            <input type="button" value="-" />
+        </div>
+        <div class="buttons">
+            Texto personalizado
+            <input type="text" value="Amigo" />
+            <input type="button" value="Posição +" />
+            <input type="button" value="Posição -" />
+        </div>
+    </div>
+    <hr />
+    <div class="bordado" id="2">
+        <img alt="bordado 2" width="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Twemoji_1f600.svg/512px-Twemoji_1f600.svg.png" />
+        <span style="left:-50px;top:-20px;position: relative;">Diversão</span>
+        <div class="buttons">
+            <input type="text" value=0 />
+            <input type="button" value="+" />
+            <input type="button" value="-" />
+        </div>
+
+        <div class="buttons">
+            Texto personalizado
+            <input type="text" value="Diversão" />
+            <input type="button" value="Posição +" />
+            <input type="button" value="Posição -" />
+        </div>
+    </div>
+    <hr />
+    <img width="100px" heigt="100px" src="/kldlda.png" />
+    <span style="left:-50px;top:-20px;position: relative;">PADRÃO</span>
+    <input type="text" value="http://example.com/imagem.png" />
+    <div class="buttons">
+        Texto personalizado
+        <input type="text" value="Diversão" />
+        <input type="button" value="Posição +" />
+        <input type="button" value="Posição -" />
+    </div>
+    <input type="button" value="CRIAR" />
+</div>
