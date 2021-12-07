@@ -22,8 +22,8 @@
 ## Entrega
 
 * [Formulário de cadastro na disciplina](https://forms.gle/4D5ZDSXPMvXqxGjE8)
-* [Planilha de revisão da entrega passada]()
-* [Formulário de revisão]()
+* [Planilha de revisão da entrega passada](https://docs.google.com/spreadsheets/d/e/2PACX-1vTbCN9c2QzDh9isbKXWqJw-C56kjzFOjRe25Hktvh6YzepcFUVVlmvre-C3VpLpjeNTbfXbHUtPWo4P/pubhtml)
+* [Formulário de revisão](https://forms.gle/wfjYZgCnKJG2Y7od8)
 * [Notas]()
 
 ## Cronograma
