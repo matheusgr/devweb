@@ -24,7 +24,7 @@
 * [Formulário de cadastro na disciplina](https://forms.gle/4D5ZDSXPMvXqxGjE8)
 * [Planilha de revisão da entrega passada](https://docs.google.com/spreadsheets/d/e/2PACX-1vTbCN9c2QzDh9isbKXWqJw-C56kjzFOjRe25Hktvh6YzepcFUVVlmvre-C3VpLpjeNTbfXbHUtPWo4P/pubhtml)
 * [Formulário de revisão](https://forms.gle/wfjYZgCnKJG2Y7od8)
-* [Notas]()
+* [Notas](https://docs.google.com/spreadsheets/d/e/2PACX-1vR3dvNidN7NcZiv78dyDH07g6aAJzJ1YU2uI47U5cT8SNj2sWKCFUyex3ssuL0aCcD7sHhInh1yyu36/pubhtml)
 
 ## Cronograma
 
